@@ -1,7 +1,7 @@
 {
   "name": "dev",
   "version": "1.0.0",
-  "description": "cliend ID - 1021383457216-5fptvarfhbriqv6kqlvu2g5ktkr2tri1.apps.googleusercontent.com\r client secret - oeF-C4Daf7LIDgYkjYaHPdgT",
+  "description": "des",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "googleapis": "^87.0.0",
     "passport": "^0.4.1",
-    "passport-google-oauth": "^2.0.0"
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
