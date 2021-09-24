@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/styles.css';
 import { GoogleLogin } from "react-google-login";
 import Cookie from "js-cookie";
 import axios from "axios";
