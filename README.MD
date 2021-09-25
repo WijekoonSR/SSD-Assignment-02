@@ -51,8 +51,12 @@ In the client/.env file you need to insert below details
 To run the application first you need run api and then after that need to run client.
 
 > to run api, go to api folder and run below command in cmd
+        npm install
         npm run dev:start
 
 > to run client app, go to client folder and run below command in cmd
+        npm install
         npm start
+
+*** please kindly install all node modules before running the application by using (npm install). if you have already installed ignore npm install command.
 
