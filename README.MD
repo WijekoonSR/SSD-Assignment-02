@@ -1,6 +1,8 @@
 #In this application it has seperated frontend and backend folders.
 
+#
 > Frontend folder = client
+#
 > Backend = api folder
 
 Before Starting Running This Application You Need To Create Gooogle Authentication and LinkedIn authentications in Developer platforms relevant to each oAuth Authorization Server.
@@ -16,6 +18,7 @@ To get google Authentications and API creditintials Please kindly vist to https:
 
 #you need to create  .env file inside the both api folder and client folder.
 > structure
+#
     -api
         -.env
     -client
@@ -51,10 +54,12 @@ In the client/.env file you need to insert below details
 To run the application first you need run api and then after that need to run client.
 
 > to run api, go to api folder and run below command in cmd
+ #
         npm install
         npm run dev:start
 
 > to run client app, go to client folder and run below command in cmd
+#
         npm install
         npm start
 
