@@ -54,7 +54,7 @@ function LinkedInAuth() {
         <div className="App">
             <header className="App-header">
 
-                <h3>Sign Up To Upload Image</h3>
+                <h3>Sign Up To Add a Status</h3>
                 <p className="fs-6">Select Below Button For Signing-up</p>
                 <div className="w-100">
                 </div>

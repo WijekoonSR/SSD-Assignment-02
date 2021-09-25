@@ -19,15 +19,13 @@ function GoogleAuth() {
         });
 
     const onSuccess = (response) => {
-        // axiosApiCall("auth/google", "post", { access_token }).then((res) => {
-        //     const { user, token } = res.data;
-
-        // })
+       
         Cookie.set("token", response.accessToken);
         Cookie.set("userName", response.profileObj.name)
         Cookie.set("userEmail", response.profileObj.email)
         Cookie.set("userProfile", response.profileObj.imageUrl)
 
+        // console.log(response)
         history.push("/google-auth/drive-upload");
 
 
